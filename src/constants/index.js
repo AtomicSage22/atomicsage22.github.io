@@ -32,7 +32,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
     title: "Work",
   },
   {
@@ -109,10 +109,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
@@ -217,8 +214,8 @@ const projects = [
       },
     ],
     image: weatherapp,
-    source_code_link: "https://github.com/",
-    live_demo_link: "",
+    source_code_link: "https://github.com/AtomicSage22/Weather-App",
+    live_demo_link: "https://atomicsage22.github.io/Weather-App/",
   },
   {
     name: "Corporate way to say",
@@ -239,7 +236,7 @@ const projects = [
       },
     ],
     image: corporateway,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AtomicSage22/corporatewaytosay",
     live_demo_link: "",
   },
   {
@@ -261,8 +258,8 @@ const projects = [
       },
     ],
     image: cvbuilder,
-    source_code_link: "https://github.com/",
-    live_demo_link: "",
+    source_code_link: "https://github.com/AtomicSage22/cv-application",
+    live_demo_link: "https://atomicsage22.github.io/cv-application/",
   },
 ];
 
