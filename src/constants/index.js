@@ -20,6 +20,11 @@ import {
   tesla,
   shopify,
   threejs,
+  purezza,
+  tutcart,
+  taskwise,
+  memoryGame,
+  chatApp,
 } from "../assets";
 
 import weatherapp from "../assets/weatherapp.png";
@@ -114,57 +119,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer Intern",
+    company_name: "Purezza Technologies",
+    icon: purezza,
+    iconBg: "#FFFFFF",
+    date: "December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented frontend designs using React and TailwindCSS across 3 major projects.",
+      "Developed APIs, enhancing backend functionality, and reducing response time by 15%.",
+      "Integrated search functionality in an e-commerce project, improving user search experience by 40%.",
+      "•Utilized Hashicorp Vault for secure credential storage, reducing security vulnerabilities by 50%",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Full Stack Developer Intern",
+    company_name: "Tutcart",
+    icon: tutcart,
+    iconBg: "#FFFFFF",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearhead the development of the Minimum Viable Product (MVP), employing agile methodologies to ensure timely delivery and stakeholder satisfaction",
+      "Managed full-stack development, including front-end, back-end, database, and server configuration, resulting in a 20% increase in development efficiency.",
+      "Conduct testing and debugging, improving application usability and security, reducing bugs by 30%",
+      "Collaborate cross-functionally with design, marketing, and sales teams to align technical solutions with business objectives and user needs.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -196,53 +201,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Weather App",
+    name: "TaskWise",
     description:
-      "A weather app that allows users to search for weather information by city name, and displays the current weather.",
+      "TaskWise is an app inspired by Splitwise, but for dividing tasks and chores among groups. ",
     tags: [
       {
-        name: "HTML",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Expo",
         color: "pink-text-gradient",
       },
     ],
-    image: weatherapp,
-    source_code_link: "https://github.com/AtomicSage22/Weather-App",
-    live_demo_link: "https://atomicsage22.github.io/Weather-App/",
+    image: taskwise,
+    source_code_link: "https://github.com/AtomicSage22/taskwise",
+    live_demo_link: "",
   },
   {
-    name: "Corporate way to say",
+    name: "Chat App",
     description:
-      "A website that translates everyday phrases into corporate jargon, and displays the results in a fun and interactive way.",
+      "A real-time chat application that allows users to create rooms and chat with each other.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "JSON",
+        name: "Socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "Node JS",
         color: "pink-text-gradient",
       },
     ],
-    image: corporateway,
-    source_code_link: "https://github.com/AtomicSage22/corporatewaytosay",
+    image: chatApp,
+    source_code_link: "https://github.com/AtomicSage22/Chat-App",
     live_demo_link: "",
   },
   {
-    name: "CV Builder",
+    name: "Memory Game",
     description:
-      "A website that allows users to create a CV using simpe text fields, and then download it as a PDF.",
+      "A simple, rick and morty themed, memory card game built with ReactJS. ",
     tags: [
       {
         name: "ReactJS",
@@ -253,13 +258,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "JS2PDF",
+        name: "Axios",
         color: "pink-text-gradient",
       },
     ],
-    image: cvbuilder,
-    source_code_link: "https://github.com/AtomicSage22/cv-application",
-    live_demo_link: "https://atomicsage22.github.io/cv-application/",
+    image: memoryGame,
+    source_code_link: "https://github.com/AtomicSage22/memory-card-game",
+    live_demo_link: "https://memory-card-game-mocha-three.vercel.app/",
   },
 ];
 
