@@ -202,3 +202,82 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.parallax {
+  position: relative;
+  min-height: 75vh;
+  min-width: 1900px;
+  width: 100%;
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Center the image horizontally */
+  display: grid;
+  grid-template-areas: "stack";
+}
+
+.parallax > * {
+  grid-area: stack;
+  animation: parallax linear;
+  animation-timeline: scroll();
+}
+
+.parallax > img {
+  width: 100%;
+}
+
+.parallax__stars {
+  --parallax-speed: 320;
+  z-index: 2;
+}
+
+.parallax__planets {
+  --parallax-speed: 290;
+  z-index: 3;
+}
+
+.parallax__sun {
+  --parallax-speed: 270;
+  z-index: 4;
+}
+
+.parallax__mountain1 {
+  --parallax-speed: 140;
+  z-index: 5;
+}
+
+.parallax__mountain2 {
+  --parallax-speed: 90;
+  z-index: 6;
+}
+
+.parallax__crater {
+  z-index: 7;
+}
+
+.parallax__content {
+  --parallax-speed: 210;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .parallax__content {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@keyframes parallax {
+  to {
+    transform: translateY(calc(var(--parallax-speed) * 1vh));
+  }
+}
