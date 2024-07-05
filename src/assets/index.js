@@ -32,6 +32,7 @@ import taskwise from "./taskwise.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import corporateway from "./corporateway.gif"
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   taskwise,
   memoryGame,
   chatApp,
+  corporateway
 };

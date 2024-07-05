@@ -23,12 +23,11 @@ import {
   purezza,
   tutcart,
   taskwise,
-  memoryGame,
+  corporateway,
   chatApp,
 } from "../assets";
 
 import weatherapp from "../assets/weatherapp.png";
-import corporateway from "../assets/corporateway.png";
 import cvbuilder from "../assets/cvbuilder.png";
 
 export const navLinks = [
@@ -249,12 +248,12 @@ const projects = [
     live_demo_link: "",
   },
   {
-    name: "Memory Game",
+    name: "Corporate Way to Say",
     description:
-      "A simple, rick and morty themed, memory card game built with ReactJS. ",
+      "An AI powered translator that translates everyday words to corporate jargon.",
     tags: [
       {
-        name: "ReactJS",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
@@ -262,13 +261,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Axios",
+        name: "Gemini",
         color: "pink-text-gradient",
       },
     ],
-    image: memoryGame,
-    source_code_link: "https://github.com/AtomicSage22/memory-card-game",
-    live_demo_link: "https://memory-card-game-mocha-three.vercel.app/",
+    image: corporateway,
+    source_code_link: "https://github.com/AtomicSage22/corporatewaytosay",
+    live_demo_link: "https://corporatewaytosay.vercel.app/",
   },
 ];
 
