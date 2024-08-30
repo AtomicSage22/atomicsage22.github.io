@@ -212,8 +212,8 @@
 
 .parallax {
   position: relative;
-  min-height: 75vh;
-  min-width: 800px;
+  min-height: 100vh;
+  min-width: 1000px;
   width: 100%;
   left: 50%; /* Center the image horizontally */
   transform: translateX(-50%); /* Center the image horizontally */

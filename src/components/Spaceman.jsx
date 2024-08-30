@@ -37,8 +37,8 @@ const SpacemanCanvas = ({ scrollContainer }) => {
 
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setScale([1, 1, 1]);
-        setPosition([0.2, -0.1, 0]);
+        setScale([0.5, 0.5, 0.5]);
+        setPosition([0, -0.6, 3]);
       } else if (window.innerWidth < 1024) {
         setScale([1.33, 1.33, 1.33]);
         setPosition([0.2, -0.3, 0]);
@@ -65,7 +65,7 @@ const SpacemanCanvas = ({ scrollContainer }) => {
   }, [scrollContainer]);
 
   return (
-    <Canvas className={`w-full h-screen bg-transparent z-10`} camera={{ near: 0.1, far: 1000 }}>
+    <Canvas className={`w-full h-[10vh] lg:h-screen bg-transparent z-10`} camera={{ near: 0.1, far: 1000 }}>
       <Suspense fallback={<CanvasLoader />}>
         <directionalLight position={[1, 1, 1]} intensity={2} />
         <ambientLight intensity={0.5} />
