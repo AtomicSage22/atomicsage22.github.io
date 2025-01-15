@@ -33,6 +33,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import corporateway from "./corporateway.gif"
+import justifur from "./justifur.png"
+import justifur_logo from "./justifur_logo.png" 
 
 export {
   logo,
@@ -68,5 +70,7 @@ export {
   taskwise,
   memoryGame,
   chatApp,
-  corporateway
+  corporateway,
+  justifur,
+  justifur_logo,
 };

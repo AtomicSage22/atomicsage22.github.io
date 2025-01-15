@@ -14,17 +14,19 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // docker,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   threejs,
   purezza,
   tutcart,
   taskwise,
   corporateway,
   chatApp,
+  justifur,
+  justifur_logo,
 } from "../assets";
 
 import weatherapp from "../assets/weatherapp.png";
@@ -117,6 +119,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "Redux",
+    icon: git,
+  }
   
 ];
 
@@ -139,7 +145,7 @@ const experiences = [
     company_name: "Tutcart",
     icon: tutcart,
     iconBg: "#FFFFFF",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - July 2024",
     points: [
       "Spearhead the development of the Minimum Viable Product (MVP), employing agile methodologies to ensure timely delivery and stakeholder satisfaction",
       "Managed full-stack development, including front-end, back-end, database, and server configuration, resulting in a 20% increase in development efficiency.",
@@ -147,6 +153,20 @@ const experiences = [
       "Collaborate cross-functionally with design, marketing, and sales teams to align technical solutions with business objectives and user needs.",
     ],
   },
+  {title: "Co-Founder & Full Stack Developer",
+    // AVB Interactive | 12/2024 – Present
+    company_name: "AVB Interactive",  
+    icon: justifur_logo,  
+    iconBg: "#FFFFFF",
+    date: "Dec 2024 - Present",  
+    points: [
+      "Developed and launched Justifur.in, a platform enabling anonymous lawyer discussions and law firm rankings.",    
+      "Owned the entire product lifecycle: concept, design, testing, deployment, and continuous improvement.",
+      "Delivered a scalable, secure platform using Next.js, AWS,  Prisma ORM, PostgreSQL, and Redis.",
+      "Implemented a modern UI/UX with TailwindCSS and DaisyUI to enhance user satisfaction.",
+      "Deployed the application via Vercel with optimized CI/CD pipelines for efficiency."
+    ],
+  }
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -204,6 +224,41 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Justifur.in",
+    description:
+      "A social media/legal research platform that helps users find legal information and connect with lawyers.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL", 
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: " purple-text-gradient",
+      },
+      {
+        name: "AWS S3",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "red-text-gradient",
+
+      },
+    ],
+    image: justifur,
+    source_code_link: "",
+    live_demo_link: "https://justifur.in/",
+  },
+  {
     name: "TaskWise",
     description:
       "TaskWise is an app inspired by Splitwise, but for dividing tasks and chores among groups. ",
@@ -225,28 +280,28 @@ const projects = [
     source_code_link: "https://github.com/AtomicSage22/taskwise",
     live_demo_link: "",
   },
-  {
-    name: "Chat App",
-    description:
-      "A real-time chat application that allows users to create rooms and chat with each other.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Socket.io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatApp,
-    source_code_link: "https://github.com/AtomicSage22/Chat-App",
-    live_demo_link: "",
-  },
+  // {
+  //   name: "Chat App",
+  //   description:
+  //     "A real-time chat application that allows users to create rooms and chat with each other.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Socket.io",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Node JS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: chatApp,
+  //   source_code_link: "https://github.com/AtomicSage22/Chat-App",
+  //   live_demo_link: "",
+  // },
   {
     name: "Corporate Way to Say",
     description:
